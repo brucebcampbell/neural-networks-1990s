@@ -1,0 +1,51 @@
+--------------------Configuration: bpwin - Win32 Release--------------------
+Begining build with project "C:\bruce\neurowin1.0\bpwin\bpwin.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/bpwin.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo"Release/bpwin.res" /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Release/bpwin.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:no /pdb:"Release/bpwin.pdb" /machine:I386 /out:"Release/bpwin.exe" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSPF3A6.TMP" with contents </nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/bpwin.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\bruce\neurowin1.0\bpwin\backprop.cpp"
+"C:\bruce\neurowin1.0\bpwin\Mindist.cpp"
+"C:\bruce\neurowin1.0\bpwin\Rand.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF3A6.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSPF3A7.TMP" with contents </nologo /subsystem:windows /incremental:no /pdb:"Release/bpwin.pdb" /machine:I386 /out:"Release/bpwin.exe" 
+.\Release\bpwin.obj
+.\Release\bpwinDoc.obj
+.\Release\bpwinView.obj
+.\Release\InfoDlg.obj
+.\Release\LayerPages.obj
+.\Release\MainFrm.obj
+.\Release\MainViewPane.obj
+.\Release\ProgressDlg.obj
+.\Release\Splash.obj
+.\Release\StdAfx.obj
+.\Release\TopologyDlg.obj
+.\Release\TrainPages.obj
+.\Release\TreeViewPane.obj
+.\Release\WarningDlg.obj
+.\Release\algorithm.obj
+.\Release\backprop.obj
+.\Release\Mindist.obj
+.\Release\Rand.obj
+.\Release\Runntwk.obj
+.\Release\bpwin.res>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF3A7.TMP" 
+Compiling...
+backprop.cpp
+Mindist.cpp
+Rand.cpp
+Generating Code...
+Linking...
+
+
+
+bpwin.exe - 0 error(s), 0 warning(s)

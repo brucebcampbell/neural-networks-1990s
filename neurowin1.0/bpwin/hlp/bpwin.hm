@@ -1,0 +1,38 @@
+// MAKEHELP.BAT generated Help Map file.  Used by BPWIN.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HID_VIEW_TOPOLOGY                       0x18003
+HID_NETWORK_TOPOLOGY                    0x18004
+HID_NETWORK_LAYER                       0x1800B
+HID_NETWORK_NODE                        0x1800C
+HID_NETWORK_TRAINING                    0x18011
+HID_NETWORK_INFO                        0x18012
+HID_NETWORK_TRAIN                       0x18014
+HID_NETWORK_RUN                         0x18020
+HID_NETWORK_RUNSETUP                    0x18022
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_BPWINTYPE                          0x20081
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_SET_TOPOLOGY                       0x20082
+HIDD_INFODISP                           0x20083
+HIDD_SET_LAYER1                         0x20087
+HIDD_SET_LAYER3                         0x20088
+HIDD_SET_LAYER2                         0x20089
+HIDD_LAYER_WARNING                      0x2008A
+HIDD_BKP_PAGE                           0x2008B
+HIDD_LMS_PAGE                           0x2008C
+HIDD_TRAINING_WARNING                   0x2008D
+HIDD_BKP_PROGRESS                       0x2008E
+HIDD_MD_PAGE                            0x2008F
+HIDD_MD_PROGRESS                        0x20090
+HIDD_MD_ZEROINPUT_WARNING               0x20091
+HIDD_RUN_SETUP                          0x20092
+HIDD_RN_PROGRESS                        0x20093
+ 
+// Frame Controls (IDW_*) 

@@ -1,0 +1,829 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\bpwin.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\bpwin.ico"
+IDR_BPWINTYPE           ICON    DISCARDABLE     "res\\bpwinDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_GREEKLETTERS        BITMAP  DISCARDABLE     "res\\greeklet.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "Splsh16.bmp"
+IDB_GREEKLETTERSSUB     BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  32, 32
+BEGIN
+    BUTTON      ID_NETWORK_TOPOLOGY
+    BUTTON      ID_NETWORK_LAYER
+    BUTTON      ID_NETWORK_TRAINING
+    BUTTON      ID_NETWORK_TRAIN
+    BUTTON      ID_NETWORK_RUNSETUP
+    BUTTON      ID_NETWORK_RUN
+    BUTTON      ID_NETWORK_INFO
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Network"
+    BEGIN
+        MENUITEM "T&opology",                   ID_NETWORK_TOPOLOGY
+        MENUITEM "&LayerSetup",                 ID_NETWORK_LAYER
+        MENUITEM "&TrainingSetup",              ID_NETWORK_TRAINING
+        MENUITEM "T&rain",                      ID_NETWORK_TRAIN
+        MENUITEM "R&unSetup",                   ID_NETWORK_RUNSETUP
+        MENUITEM "Ru&n",                        ID_NETWORK_RUN
+        MENUITEM "&Info",                       ID_NETWORK_INFO
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM "&About bpwin...",             ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 269, 142
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About bpwin"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,16,16
+    LTEXT           "bpwin ver 0.1",IDC_STATIC,51,7,119,8,SS_NOPREFIX
+    LTEXT           "Bruce Campbell 1997",IDC_STATIC,51,32,119,8
+    DEFPUSHBUTTON   "OK",IDOK,230,7,32,14,WS_GROUP
+    LTEXT           "Freeware - no warranties",IDC_STATIC,51,20,105,11
+    LTEXT           "Static",IDC_PHYSICAL_MEM,51,72,101,11
+    LTEXT           "Static",IDC_DISK_SPACE,51,100,104,12
+    LTEXT           "Free Space",IDC_STATIC,51,90,37,8
+    LTEXT           "Physical Memory",IDC_STATIC,51,62,58,10
+END
+
+IDD_SET_TOPOLOGY DIALOG DISCARDABLE  0, 0, 233, 156
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Network Topology"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,176,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,176,30,50,14
+    EDITTEXT        IDC_INPUTDIM,7,12,43,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Input Dimension",IDC_STATIC,56,17,48,8
+    CONTROL         "&3 ",IDC_3LAYERS,"Button",BS_AUTORADIOBUTTON,7,56,32,8
+    CONTROL         "&2 ",IDC_2LAYERS,"Button",BS_AUTORADIOBUTTON,7,44,38,8
+    GROUPBOX        "Layers",IDC_STATIC,7,32,69,44
+END
+
+IDD_INFODISP DIALOG DISCARDABLE  0, 0, 340, 251
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Parameter Values"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,283,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,283,24,50,14
+    CONTROL         "List1",IDC_VARIABLE_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,162,89,168,81
+    ICON            IDR_MAINFRAME,IDC_STATIC,233,13,20,20
+    CONTROL         "List2",IDC_LIST_LAYER1,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,7,15,143,66
+    CONTROL         "List2",IDC_LIST_LAYER2,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,7,96,143,66
+    CONTROL         "List2",IDC_LIST_LAYER3,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,7,174,143,65
+    LTEXT           "Layer 1",IDC_STATIC,7,7,34,8
+    LTEXT           "Layer 2",IDC_STATIC,7,87,37,8
+    LTEXT           "Layer 3",IDC_STATIC,7,166,38,10
+END
+
+IDD_SET_LAYER1 DIALOG DISCARDABLE  0, 0, 196, 128
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Layer 1"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_LAYER1_NODES,125,38,36,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN_LAYER1_NODE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,161,31,12,26
+    EDITTEXT        IDC_LAYER1_BIAS,97,72,64,12,ES_AUTOHSCROLL
+    CONTROL         "&Linear",IDC_LAYER1_LINEAR,"Button",BS_AUTORADIOBUTTON,
+                    15,63,47,12
+    CONTROL         "L&ogistic",IDC_LAYER1_LOGISTIC,"Button",
+                    BS_AUTORADIOBUTTON,15,74,50,14
+    CONTROL         "&Tanh",IDC_LAYER1_TANH,"Button",BS_AUTORADIOBUTTON,15,
+                    89,32,10
+    CONTROL         "T&hreshold",IDC_LAYER1_THRESHOLD,"Button",
+                    BS_AUTORADIOBUTTON,15,101,47,10
+    GROUPBOX        "Node ActivationType",IDC_STATIC,7,49,75,72
+    LTEXT           "Nodes",IDC_STATIC,125,28,22,8
+    LTEXT           "Bias",IDC_STATIC,99,59,19,8
+END
+
+IDD_SET_LAYER3 DIALOG DISCARDABLE  0, 0, 196, 128
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Layer 3"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_LAYER3_NODES,125,39,36,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN_LAYER3_NODE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,161,32,8,26
+    EDITTEXT        IDC_LAYER3_BIAS,97,73,64,12,ES_AUTOHSCROLL
+    GROUPBOX        "Node ActivationType",IDC_STATIC,7,50,75,71
+    CONTROL         "&Linear",IDC_LAYER3_LINEAR,"Button",BS_AUTORADIOBUTTON,
+                    16,61,47,12
+    CONTROL         "L&ogistic",IDC_LAYER3_LOGISTIC,"Button",
+                    BS_AUTORADIOBUTTON,16,74,50,14
+    CONTROL         "&Tanh",IDC_LAYER3_TANH,"Button",BS_AUTORADIOBUTTON,16,
+                    89,32,10
+    LTEXT           "Nodes",IDC_STATIC,125,29,22,8
+    LTEXT           "Bias",IDC_STATIC,98,63,19,8
+    CONTROL         "T&hreshold",IDC_LAYER3_THRESHOLD,"Button",
+                    BS_AUTORADIOBUTTON,16,102,39,10
+END
+
+IDD_SET_LAYER2 DIALOG DISCARDABLE  0, 0, 198, 128
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Layer 2"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_LAYER2_NODES,125,39,36,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN_LAYER2_NODE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,161,32,8,26
+    EDITTEXT        IDC_LAYER2_BIAS,97,73,64,12,ES_AUTOHSCROLL
+    GROUPBOX        "Node ActivationType",IDC_STATIC,7,50,75,71
+    CONTROL         "&Linear",IDC_LAYER2_LINEAR,"Button",BS_AUTORADIOBUTTON,
+                    15,61,47,12
+    CONTROL         "L&ogistic",IDC_LAYER2_LOGISTIC,"Button",
+                    BS_AUTORADIOBUTTON,15,75,50,14
+    CONTROL         "&Tanh",IDC_LAYER2_TANH,"Button",BS_AUTORADIOBUTTON,15,
+                    90,32,10
+    LTEXT           "Nodes",IDC_STATIC,125,29,22,8
+    LTEXT           "Bias",IDC_STATIC,100,62,19,8
+    CONTROL         "T&hreshold",IDC_LAYER2_THRESHOLD,"Button",
+                    BS_AUTORADIOBUTTON,15,102,43,13
+END
+
+IDD_LAYER_WARNING DIALOG DISCARDABLE  0, 0, 221, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Topology Warning"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,164,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,164,24,50,14
+    LTEXT           "You must have properly set up a network topology to access the layer setup.  You have either not entered the information, or a value that doesn't make sense was entered.",
+                    IDC_STATIC,34,7,127,47
+    LTEXT           "Possible causes:",IDC_STATIC,7,56,141,9
+    LTEXT           "A value of zero for one or more of the parameters in the topology setup, ",
+                    IDC_STATIC,50,65,125,18
+    LTEXT           "The network topology dialog hasn't been run yet.",
+                    IDC_STATIC,50,84,119,18
+    LTEXT           "Remedy:",IDC_STATIC,7,116,29,8
+    LTEXT           "Goto Network : Topology neue item.  When dialog box appears, make sure none of the paramters are zero.",
+                    IDC_STATIC,50,116,124,27
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,16,16
+END
+
+IDD_BKP_PAGE DIALOG DISCARDABLE  0, 0, 272, 165
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Back Propagation "
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_DATA_FILE_EDIT,70,24,122,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Data File",IDC_INPUT_FILE_BTN,7,22,51,14
+    EDITTEXT        IDC_OUTPUT_FILE_EDIT,70,47,122,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Output File",IDC_OUTPUT_FILE_BTN,7,46,51,14
+    EDITTEXT        IDC_NUM_VECTORS,7,82,51,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TRAIN_PARAM,7,106,49,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRAIN_PASSES,7,135,49,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_UPPER_WEIGHT,142,106,51,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOWER_WEIGHT,141,134,51,12,ES_AUTOHSCROLL
+    LTEXT           "Training Parameter",IDC_STATIC,58,106,67,12
+    LTEXT           "Training Passes",IDC_STATIC,58,137,65,8
+    LTEXT           "Upper Range For Initial Weight Distribution",IDC_STATIC,
+                    201,106,64,28
+    LTEXT           "Lower Range For Initial Weight Distribution",IDC_STATIC,
+                    202,134,63,24
+    LTEXT           "Number of Training Vectors",IDC_STATIC,58,82,104,10
+END
+
+IDD_LMS_PAGE DIALOG DISCARDABLE  0, 0, 215, 129
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Least Mean Squared "
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Training Parameter",IDC_STATIC,7,36,63,18
+    EDITTEXT        IDC_LMS_TRAIN_PARAM,71,31,40,14,ES_AUTOHSCROLL
+END
+
+IDD_TRAINING_WARNING DIALOG DISCARDABLE  0, 0, 217, 133
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Layer Warning"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,160,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,160,24,50,14
+    LTEXT           "There is a probelm with the set up of the layers in your network.  Most likely there is a layer with zero nodes in it.  Go back and check the topology of the network.",
+                    IDC_STATIC,34,32,120,76
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+END
+
+IDD_BKP_PROGRESS DIALOG DISCARDABLE  0, 0, 187, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Backpropagation Training Progress"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,71,66,50,14
+    CONTROL         "Progress1",IDC_TRAINING_PROGRESS,"msctls_progress32",
+                    WS_BORDER,7,46,173,13
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    PUSHBUTTON      "&Start Training",IDC_START_TRAINING,67,19,56,14
+END
+
+IDD_MD_PAGE DIALOG DISCARDABLE  0, 0, 276, 165
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Minimum Disturbance "
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_DATA_FILE_EDIT,69,23,122,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Data File",IDC_INPUT_FILE_BTN,7,22,51,14
+    EDITTEXT        IDC_OUTPUT_FILE_EDIT,70,47,122,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Output File",IDC_OUTPUT_FILE_BTN,7,46,51,14
+    EDITTEXT        IDC_NUM_VECTORS,7,82,51,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TRAIN_PARAM,7,106,49,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRAIN_PASSES,7,135,49,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_UPPER_WEIGHT,142,106,51,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOWER_WEIGHT,141,134,51,12,ES_AUTOHSCROLL
+    LTEXT           "Training Parameter",IDC_STATIC,58,106,67,12
+    LTEXT           "Training Passes",IDC_STATIC,58,137,65,8
+    LTEXT           "Upper Range For Initial Weight Distribution",IDC_STATIC,
+                    201,106,64,28
+    LTEXT           "Lower Range For Initial Weight Distribution",IDC_STATIC,
+                    202,134,63,24
+    LTEXT           "Number of Training Vectors",IDC_STATIC,58,82,104,10
+END
+
+IDD_MD_PROGRESS DIALOG DISCARDABLE  0, 0, 187, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Minimum Disturbance Training Progress"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,71,66,50,14
+    CONTROL         "Progress1",IDC_TRAINING_PROGRESS,"msctls_progress32",
+                    WS_BORDER,7,46,173,13
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    PUSHBUTTON      "&Start Training",IDC_START_TRAINING,67,19,56,14
+END
+
+IDD_MD_ZEROINPUT_WARNING DIALOG DISCARDABLE  0, 0, 294, 114
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Minimum disurbance zero input warning"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,38,69,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,127,70,50,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    LTEXT           "Possible error, you have either won the computational lottery, or tried to present a noe with all zero's and no bias",
+                    IDC_STATIC,37,7,209,19
+    LTEXT           "OK skips adaptation on that node.\nCancel to exit the training process.",
+                    IDC_STATIC,37,29,185,19
+END
+
+IDD_RUN_SETUP DIALOG DISCARDABLE  0, 0, 272, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Run Setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,215,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,215,24,50,14
+    PUSHBUTTON      "&Output File",IDC_OUTPUT_FILE_BTN,7,46,51,14
+    EDITTEXT        IDC_DATA_FILE_EDIT,70,24,122,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Data File",IDC_INPUT_FILE_BTN,7,22,51,14
+    EDITTEXT        IDC_OUTPUT_FILE_EDIT,70,47,122,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Weights File",IDC_WEIGHTS_FILE_BTN,7,70,51,14
+    EDITTEXT        IDC_WEIGHTS_FILE_EDIT,70,71,122,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NUM_VECTORS,7,99,51,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Number of Vectors Passed to Network",IDC_STATIC,64,101,
+                    121,10
+END
+
+IDD_RN_PROGRESS DIALOG DISCARDABLE  0, 0, 187, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Run Progress"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,71,66,50,14
+    CONTROL         "Progress1",IDC_RUNNING_PROGRESS,"msctls_progress32",
+                    WS_BORDER,7,46,173,13
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    PUSHBUTTON      "&Start Run",IDC_START_TRAINING,67,19,56,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "bpwin MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "bpwin\0"
+            VALUE "LegalCopyright", "Copyright (C) 1997\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "bpwin.EXE\0"
+            VALUE "ProductName", "bpwin Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        VERTGUIDE, 51
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_SET_TOPOLOGY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        VERTGUIDE, 56
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+        HORZGUIDE, 7
+        HORZGUIDE, 25
+        HORZGUIDE, 44
+        HORZGUIDE, 94
+        HORZGUIDE, 114
+        HORZGUIDE, 149
+    END
+
+    IDD_INFODISP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 333
+        VERTGUIDE, 150
+        VERTGUIDE, 162
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 244
+        HORZGUIDE, 129
+    END
+
+    IDD_SET_LAYER1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        VERTGUIDE, 15
+        VERTGUIDE, 161
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+        HORZGUIDE, 7
+        HORZGUIDE, 63
+    END
+
+    IDD_SET_LAYER3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        VERTGUIDE, 16
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_SET_LAYER2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        VERTGUIDE, 15
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_LAYER_WARNING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        VERTGUIDE, 50
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+        HORZGUIDE, 116
+    END
+
+    IDD_BKP_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        VERTGUIDE, 58
+        VERTGUIDE, 70
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 158
+        HORZGUIDE, 20
+        HORZGUIDE, 106
+        HORZGUIDE, 134
+    END
+
+    IDD_LMS_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_TRAINING_WARNING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+
+    IDD_BKP_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_MD_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 158
+    END
+
+    IDD_MD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_MD_ZEROINPUT_WARNING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 287
+        VERTGUIDE, 37
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+
+    IDD_RUN_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_RN_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "NeuroWin\n\nBpwin\n\n\nBpwin.Document\nBpwin Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "bpwin"
+    AFX_IDS_IDLEMESSAGE     "For Help, Press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help Topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use helpl"
+    ID_CONTEXT_HELP         "Display Help For Clicked On Buttons, Meues, And Windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOPOLOGY        "Setup network topology"
+    ID_NETWORK_TOPOLOGY     "Set the Network Topology\nTopology"
+    ID_NETWORK_LAYER        "Setup layer properties\nLayers"
+    ID_NETWORK_NODE         "Setup node properties\nNodes"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    CG_IDS_PHYSICAL_MEM     "%lu KB"
+    CG_IDS_DISK_SPACE       "%lu KB Free on %c:"
+    CG_IDS_DISK_SPACE_UNAVAIL "Unavailable"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NETWORK_TRAINING     "Set Up Training Parameters\nTraining Setup"
+    ID_NETWORK_INFO         "Displayer network info -  topology, layer and training parameters\nInfo"
+    ID_NETWORK_TRAIN        "Train the network\nInitiate Training"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NETWORK_RUN          "Run a trained network\nRun Network"
+    ID_NETWORK_RUNSETUP     "Setup to run a network\nRun Setup"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\bpwin.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

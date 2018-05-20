@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "klNNGA", "klNNGA.vcxproj", "{A455689C-1987-495C-B4B9-B49D7F713D59}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bpwin", "neurowin1.0\bpwin\bpwin.vcxproj", "{96E25E40-C3CC-6C74-7AD1-E5CEDC8A1F2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A455689C-1987-495C-B4B9-B49D7F713D59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A455689C-1987-495C-B4B9-B49D7F713D59}.Debug|Win32.Build.0 = Debug|Win32
+		{A455689C-1987-495C-B4B9-B49D7F713D59}.Release|Win32.ActiveCfg = Release|Win32
+		{A455689C-1987-495C-B4B9-B49D7F713D59}.Release|Win32.Build.0 = Release|Win32
+		{96E25E40-C3CC-6C74-7AD1-E5CEDC8A1F2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96E25E40-C3CC-6C74-7AD1-E5CEDC8A1F2E}.Debug|Win32.Build.0 = Debug|Win32
+		{96E25E40-C3CC-6C74-7AD1-E5CEDC8A1F2E}.Release|Win32.ActiveCfg = Release|Win32
+		{96E25E40-C3CC-6C74-7AD1-E5CEDC8A1F2E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

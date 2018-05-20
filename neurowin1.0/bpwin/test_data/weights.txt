@@ -1,0 +1,418 @@
+pass=6
+	adaption layer=0
+		vector_count=0  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+count_u=0 *(*(rank_mat+0)+0)=0  count_u=1 *(*(rank_mat+0)+1)=2  count_u=2 *(*(rank_mat+0)+2)=1  
+		vector_count=1  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=2  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=3  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+count_u=0 *(*(rank_mat+0)+0)=1  count_u=1 *(*(rank_mat+0)+1)=2  count_u=2 *(*(rank_mat+0)+2)=0  
+		vector_count=4  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+count_u=0 *(*(rank_mat+0)+0)=2  count_u=1 *(*(rank_mat+0)+1)=0  count_u=2 *(*(rank_mat+0)+2)=1  
+		vector_count=5  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=6  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+count_u=0 *(*(rank_mat+0)+0)=1  count_u=1 *(*(rank_mat+0)+1)=2  count_u=2 *(*(rank_mat+0)+2)=0  
+		vector_count=7  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=8  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=9  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+count_u=0 *(*(rank_mat+0)+0)=1  count_u=1 *(*(rank_mat+0)+1)=2  count_u=2 *(*(rank_mat+0)+2)=0  
+		vector_count=10  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+count_u=0 *(*(rank_mat+0)+0)=2  count_u=1 *(*(rank_mat+0)+1)=0  count_u=2 *(*(rank_mat+0)+2)=1  
+		vector_count=11  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=12  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+count_u=0 *(*(rank_mat+0)+0)=2  count_u=1 *(*(rank_mat+0)+1)=0  count_u=2 *(*(rank_mat+0)+2)=1  
+		vector_count=13  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=14  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+count_u=0 *(*(rank_mat+0)+0)=1  count_u=1 *(*(rank_mat+0)+1)=2  count_u=2 *(*(rank_mat+0)+2)=0  
+		vector_count=15  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+count_u=0 *(*(rank_mat+0)+0)=1  count_u=1 *(*(rank_mat+0)+1)=2  count_u=2 *(*(rank_mat+0)+2)=0  
+	adaption layer=1
+		vector_count=0  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+count_u=0 *(*(rank_mat+1)+0)=2  count_u=1 *(*(rank_mat+1)+1)=1  
+		vector_count=1  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+count_u=0 *(*(rank_mat+1)+0)=1  count_u=1 *(*(rank_mat+1)+1)=0  count_u=2 *(*(rank_mat+1)+2)=2  
+		vector_count=2  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+count_u=0 *(*(rank_mat+1)+0)=1  count_u=1 *(*(rank_mat+1)+1)=2  
+		vector_count=3  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=4  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=5  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=6  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=7  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=8  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=9  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=10  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=11  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+count_u=0 *(*(rank_mat+1)+0)=2  count_u=1 *(*(rank_mat+1)+1)=1  count_u=2 *(*(rank_mat+1)+2)=0  
+		vector_count=12  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=13  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=14  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+count_u=0 *(*(rank_mat+1)+0)=1  count_u=1 *(*(rank_mat+1)+1)=0  count_u=2 *(*(rank_mat+1)+2)=2  
+		vector_count=15  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+	adaption layer=2
+		vector_count=0  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=1  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+count_u=0 *(*(rank_mat+2)+0)=0  count_u=1 *(*(rank_mat+2)+1)=2  
+		vector_count=2  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=3  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=4  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=5  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=6  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=7  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=8  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=9  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=10  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=11  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+count_u=0 *(*(rank_mat+2)+0)=0  count_u=1 *(*(rank_mat+2)+1)=2  
+		vector_count=12  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=13  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=14  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=15  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+pass=6
+	adaption layer=0
+		vector_count=0  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=1  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+count_u=0 *(*(rank_mat+0)+0)=1  count_u=1 *(*(rank_mat+0)+1)=2  count_u=2 *(*(rank_mat+0)+2)=0  
+		vector_count=2  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=3  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+count_u=0 *(*(rank_mat+0)+0)=1  count_u=1 *(*(rank_mat+0)+1)=0  count_u=2 *(*(rank_mat+0)+2)=2  
+		vector_count=4  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=5  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+count_u=0 *(*(rank_mat+0)+0)=1  count_u=1 *(*(rank_mat+0)+1)=0  
+		vector_count=6  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=7  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=8  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=9  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=10  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=11  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=12  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=13  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=14  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=15  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+count_u=0 *(*(rank_mat+0)+0)=1  count_u=1 *(*(rank_mat+0)+1)=2  count_u=2 *(*(rank_mat+0)+2)=0  
+	adaption layer=1
+		vector_count=0  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=1  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=2  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=3  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=4  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=5  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=6  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=7  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=8  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=9  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=10  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=11  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=12  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=13  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=14  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=15  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+	adaption layer=2
+		vector_count=0  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=1  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=2  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=3  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=4  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=5  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=6  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=7  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=8  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=9  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=10  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=11  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=12  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=13  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=14  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=15  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+pass=6
+	adaption layer=0
+		vector_count=0  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=1  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=2  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=3  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=4  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=5  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=6  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=7  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=8  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=9  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=10  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=11  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=12  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=13  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=14  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=15  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+	adaption layer=1
+		vector_count=0  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=1  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=2  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=3  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=4  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=5  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=6  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=7  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=8  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=9  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=10  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=11  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=12  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=13  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=14  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=15  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+	adaption layer=2
+		vector_count=0  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=1  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=2  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=3  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=4  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=5  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=6  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=7  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=8  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=9  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=10  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=11  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=12  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=13  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=14  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=15  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+pass=6
+	adaption layer=0
+		vector_count=0  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=1  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=2  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=3  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=4  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=5  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=6  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=7  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=8  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=9  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=10  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=11  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=12  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=13  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=14  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=15  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+	adaption layer=1
+		vector_count=0  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=1  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=2  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=3  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=4  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=5  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=6  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=7  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=8  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=9  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=10  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=11  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=12  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=13  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=14  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=15  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+	adaption layer=2
+		vector_count=0  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=1  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=2  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=3  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=4  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=5  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=6  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=7  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=8  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=9  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=10  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=11  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=12  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=13  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=14  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=15  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+pass=6
+	adaption layer=0
+		vector_count=0  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=1  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=2  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=3  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=4  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=5  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=6  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=7  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=8  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=9  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=10  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=11  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=12  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=13  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=14  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=15  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+	adaption layer=1
+		vector_count=0  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=1  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=2  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=3  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=4  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=5  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=6  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=7  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=8  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=9  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=10  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=11  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=12  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=13  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=14  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=15  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+	adaption layer=2
+		vector_count=0  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=1  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=2  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=3  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=4  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=5  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=6  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=7  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=8  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=9  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=10  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=11  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=12  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=13  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=14  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=15  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+pass=6
+	adaption layer=0
+		vector_count=0  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=1  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=2  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=3  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=4  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=5  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=6  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=7  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=8  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=9  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=10  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=11  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=12  		vector_selection=0   1, 1, 1, 1, 1, 1, 
+		vector_count=13  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=14  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=15  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+	adaption layer=1
+		vector_count=0  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=1  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=2  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=3  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=4  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=5  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=6  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=7  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=8  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=9  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=10  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=11  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=12  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=13  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=14  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=15  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+	adaption layer=2
+		vector_count=0  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=1  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=2  		vector_selection=6   -1, -1, 1, -1, -1, 1, 
+		vector_count=3  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=4  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=5  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=6  		vector_selection=2   1, 1, -1, 1, 1, -1, 
+		vector_count=7  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=8  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=9  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=10  		vector_selection=5   -1, 1, -1, -1, 1, -1, 
+		vector_count=11  		vector_selection=3   1, -1, -1, 1, -1, -1, 
+		vector_count=12  		vector_selection=1   1, -1, 1, 1, -1, 1, 
+		vector_count=13  		vector_selection=7   -1, -1, -1, -1, -1, -1, 
+		vector_count=14  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+		vector_count=15  		vector_selection=4   -1, 1, 1, -1, 1, 1, 
+
+Error results for each training vector.
+e[0]=0  input=1 1 1   output=1 1 1   desired out=1 1 1 
+e[1]=0  input=1 -1 1   output=1 -1 1   desired out=1 -1 1 
+e[2]=0  input=1 1 -1   output=1 1 -1   desired out=1 1 -1 
+e[3]=0  input=1 -1 -1   output=1 -1 -1   desired out=1 -1 -1 
+e[4]=0  input=-1 1 1   output=-1 1 1   desired out=-1 1 1 
+e[5]=0  input=-1 1 -1   output=-1 1 -1   desired out=-1 1 -1 
+e[6]=0  input=-1 -1 1   output=-1 -1 1   desired out=-1 -1 1 
+e[7]=0  input=-1 -1 -1   output=-1 -1 -1   desired out=-1 -1 -1 
+Global error results for each training pass.
+g_e[0]=2
+g_e[1]=0
+g_e[2]=0
+g_e[3]=0
+g_e[4]=0
+g_e[5]=0Minimum Disturbance Training Run on data file:
+[E:\c_prog\mfc_neur\bpwin\test_data\3in3out_8vectors_identity_io_map.txt]
+[Friday, September, 19, 1997]
+			LAYER [0]
+weights   UINT[0][0]
+=:-0.493284
+=:-0.813063
+=:0.216994
+=:0.806841
+
+unit trained =	25
+weights   UINT[0][1]
+=:-0.608254
+=:0.125907
+=:0.628043
+=:-0.545568
+
+unit trained =	26
+weights   UINT[0][2]
+=:-0.168138
+=:-1.73252
+=:0.864892
+=:-2.55066
+
+unit trained =	30
+			LAYER [1]
+weights   UINT[1][0]
+=:0.300742
+=:0.00414361
+=:-0.89605
+=:-0.862028
+unit trained =	8
+
+weights   UINT[1][1]
+=:0.703891
+=:0.724691
+=:0.0961934
+=:0.854556
+unit trained =	10
+
+weights   UINT[1][2]
+=:0.775353
+=:0.894353
+=:-0.304969
+=:0.565792
+unit trained =	7
+
+			LAYER [2]
+weights   UINT[2][0]
+=:0.138262
+=:-0.270647
+=:-0.265163
+=:-0.516587
+unit trained =	2
+
+weights   UINT[2][1]
+=:-0.135703
+=:-0.692115
+=:0.253783
+=:0.498907
+unit trained =	0
+
+weights   UINT[2][2]
+=:-0.317918
+=:0.660785
+=:-0.478797
+=:0.932029
+unit trained =	0
+
+

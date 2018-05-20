@@ -1,0 +1,65 @@
+User can modify file any in any way except for the following
+Do not add any colons, data is preceded by a colon.
+Keep colon and the data following it on one line.
+Do not alter the order of appearance of the data.
+
+
+This code can handle up to five layers of nodes.  There is rarely a need for more than four
+layers in practice. 
+layers=:  3
+
+Training can be 'LMS','MIN_DISTURBANCE',or 'BACKPROPAGATION'
+LMS=0 MIN_DISTURBANCE=1 BACKPROPAGATION=2
+training=:2
+
+Input dimension had better agree with the data set for training and running the network
+input_dimension=:3
+
+
+There can be up to five layers of nodes in  a network,  three is the standard number of layers.  
+There must be at least one layer, and no layer may be preceded by a layer with zero units
+The number of nodes on the output layer had better equal the dimension of the
+output vector in the datafile.
+layer1_units=:3
+layer2_units=:3
+layer3_units=:3
+layer4_units=:0
+layer5_units=:0
+
+layer*_bias describes the bias of each layer.  If you don't want a bias applied,
+then set the value to zero.  Bias is an input of constant strength.  It effectively 
+gives an extra degree of freedom for the network.  Weights are created for the bias
+regardless of value, it simplifies the code at a small expense of memory.
+layer1_bias=:1
+layer2_bias=:1
+layer3_bias=:1
+layer4_bias=:0
+layer5_bias=:0
+
+THRESHOLD should be used for the minimum disturbance training algorithm.
+ LINEAR should be used for the LMS training algorithm
+All but the THRESHOLD are available for the backpropagation algorithm
+LINEAR=0 THRESHOLD=1 LOGISTIC=2 TANH=3
+node_type1=:3
+node_type2=:3
+node_type3=:3
+node_type4=:0 
+node_type5=:0
+
+Weights are initially chosen randomly from the following range.  
+upper_weight_init=:1
+lower_weight _init=: -1 
+  
+
+Number of training vectors.  The data should be in a comma delimited file format.
+train_vectors=:3
+
+Training parameter is a scaling factor for how much the weights are to be adjusted 
+at each training pass.  There is no universal criteria for determining the size of the
+parameter.  It is dependent on magnitude and type of training data, number of passes, and the 
+range of initial weights chosen.  If the number is too large, the weights will jump around on the
+error surface too much and a minimum will never be obtained.  Too small a parameter will give slow convergence to an error minima. 
+training_parameter=:.05
+
+Training passes, describes the number of times the training set is presented to the network
+passes=:500

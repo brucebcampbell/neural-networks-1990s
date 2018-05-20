@@ -1,0 +1,34 @@
+071497
+Help functionality added after the fact.  Should have checked context sensiotive help option in app 
+wizrd when proj created
+Changes Made:
+created skeleton app
+inserted Help Files folder and bpwin.hpj file into proj
+manually added menu item, help strings,toolbar item & accelerator key
+added messahe map entries for help commands
+added special build instructions to proj file for executing help.bat file
+changed a path located at the bottom of the hpj file to reflect actual bpiwn proj
+
+062397
+min_dist functionality has been added in the form of the algorithm
+now need to add widows interface similar to bkp_ntwk to the min_dist module
+060997
+Destructors for all objects theoretically work.
+bkp theoretically trains properly.
+progress bar is functional.
+need to serialze a bkp network or any trained network for that matter.
+need to perform some kind of output to main view - find some kind of chart wizard
+when done training a modeless dialog pops up with char to rms error
+and a save network dialog pops up, or we add that functionality to menu
+need to verify all resources are freed and that we can't make the program crash by feeding
+it garbage.
+
+
+Set random number generator to emit
+the same sequence each time it is called.
+Don't forget to change it back when 
+finished debugging.
+
+bkp module cleans up all resources except for int pointet to by num_weights 
+don't know about min_dist but for sure md_num_weights isn't freed up
+also the seed for the random number generator is not freed

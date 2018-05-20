@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shell">
+      <UniqueIdentifier>{12978f3d-29e5-483d-9abb-c076160711b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell\Header Files">
+      <UniqueIdentifier>{cc44c132-921a-4cf5-929f-5e2e15df4e35}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="shell\Source Files">
+      <UniqueIdentifier>{56bae727-0ada-42b7-8915-4ce3caf2a3d6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="shell\Help Files">
+      <UniqueIdentifier>{61c93063-c45f-4e3e-b7a7-ebc6cc965919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm">
+      <UniqueIdentifier>{765e217b-aece-4f28-b48f-73dc57e1c251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm\Alg Headers">
+      <UniqueIdentifier>{68da396a-8aff-4d69-9394-477cede2d5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm\Alg Sources">
+      <UniqueIdentifier>{cafde1de-6789-4328-9ad1-b9e187a46d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{aa38f620-dd0f-4840-8a27-325379d1a6bc}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bpwin.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bpwinDoc.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bpwinView.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoDlg.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerPages.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainViewPane.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDlg.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TopologyDlg.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainPages.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeViewPane.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningDlg.h">
+      <Filter>shell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm.h">
+      <Filter>algorithm\Alg Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="backprop.h">
+      <Filter>algorithm\Alg Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mindist.h">
+      <Filter>algorithm\Alg Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rand.h">
+      <Filter>algorithm\Alg Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Runntwk.h">
+      <Filter>algorithm\Alg Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bpwin.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bpwinDoc.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bpwinView.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoDlg.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerPages.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainViewPane.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDlg.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TopologyDlg.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainPages.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeViewPane.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WarningDlg.cpp">
+      <Filter>shell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm.cpp">
+      <Filter>algorithm\Alg Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="backprop.cpp">
+      <Filter>algorithm\Alg Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Mindist.cpp">
+      <Filter>algorithm\Alg Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Rand.cpp">
+      <Filter>algorithm\Alg Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Runntwk.cpp">
+      <Filter>algorithm\Alg Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="bpwin.rc">
+      <Filter>shell\Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="hlp\AfxCore.rtf">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\AfxPrint.rtf">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\AppExit.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\bmp00001.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\bpwin.cnt">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\bpwin.ico">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\bpwin.rc2">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\bpwinDoc.ico">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\Bullet.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\CurArw2.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\CurArw4.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\CurHelp.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\EditCopy.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\EditCut.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\EditPast.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\EditUndo.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\FileNew.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\FileOpen.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\FilePrnt.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\FileSave.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\greeklet.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\HlpSBar.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\HlpTBar.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\RecFirst.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\RecLast.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\RecNext.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\RecPrev.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\Scmax.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\ScMenu.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\Scmin.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Splsh16.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Toolbar.bmp">
+      <Filter>shell\Help Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
